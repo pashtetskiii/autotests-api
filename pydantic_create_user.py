@@ -1,5 +1,6 @@
-from pydantic import BaseModel, ConfigDict, EmailStr, constr
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, constr
 from pydantic.alias_generators import to_camel
+from tools.fakers import fake
 
 
 class BaseSchema(BaseModel):
@@ -9,17 +10,17 @@ class BaseSchema(BaseModel):
 class UserSchema(BaseSchema):
     id: str
     email: EmailStr
-    last_name: constr(min_length=1, max_length=50)
-    first_name: constr(min_length=1, max_length=50)
-    middle_name: constr(min_length=1, max_length=50)
+    last_name: str = Field(alias="lastName")
+    first_name: str = Field(alias="firstName")
+    middle_name: str = Field(alias="middleName")
 
 
 class CreateUserRequestSchema(BaseSchema):
-    email: EmailStr
-    password: constr(min_length=1, max_length=250)
-    last_name: constr(min_length=1, max_length=50)
-    first_name: constr(min_length=1, max_length=50)
-    middle_name: constr(min_length=1, max_length=50)
+    email: EmailStr = Field(default_factory=fake.email)
+    password: str = Field(default_factory=fake.password)
+    last_name: str = Field(alias="lastName", default_factory=fake.last_name)
+    first_name: str = Field(alias="firstName", default_factory=fake.first_name)
+    middle_name: str = Field(alias="middleName", default_factory=fake.middle_name)
 
 
 class CreateUserResponseSchema(BaseSchema):
