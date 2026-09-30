@@ -7,11 +7,17 @@ from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
     GetExerciseResponseSchema,
+    UpdateExerciseRequestSchema,
+    UpdateExerciseResponseSchema,
 )
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response
+from tools.assertions.exercises import (
+    assert_create_exercise_response,
+    assert_get_exercise_response,
+    assert_update_exercise_response,
+)
 from tools.assertions.schema import validate_json_schema
 
 
@@ -32,6 +38,23 @@ class TestExercises:
 
         assert_status_code(response.status_code, HTTPStatus.OK)
         assert_create_exercise_response(request, response_data)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_update_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
+        """
+        Проверяет, что задание успешно обновляется через API и в ответе возвращаются
+        корректные данные, соответствующие переданному запросу на обновление.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        """
+        request = UpdateExerciseRequestSchema()
+        response = exercises_client.update_exercise_api(function_exercise.response.exercise.id, request)
+        response_data = UpdateExerciseResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_update_exercise_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
