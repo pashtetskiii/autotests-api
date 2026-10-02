@@ -34,11 +34,14 @@ from tools.allure.tags import AllureTag
 @allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.COURSES)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)  # allure.parent_suite == allure.epic
+@allure.suite(AllureFeature.COURSES)  # allure.suite == allure.feature
 class TestCourses:
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)  # Добавили story
     @allure.title("Update course")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)  # allure.sub_suite == allure.story
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         # Формируем данные для обновления
         request = UpdateCourseRequestSchema()
@@ -59,6 +62,7 @@ class TestCourses:
     @allure.story(AllureStory.GET_ENTITIES)  # Добавили story
     @allure.title("Get courses")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)  # allure.sub_suite == allure.story
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -84,6 +88,7 @@ class TestCourses:
     @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
     @allure.title("Create course")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)  # allure.sub_suite == allure.story
     def test_create_course(
             self,
             courses_client: CoursesClient,

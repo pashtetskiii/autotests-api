@@ -37,11 +37,14 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.EXERCISES)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)  # allure.parent_suite == allure.epic
+@allure.suite(AllureFeature.EXERCISES)  # allure.suite == allure.feature
 class TestExercises:
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
     @allure.title("Create exercise")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)  # allure.sub_suite == allure.story
     def test_create_exercise(self, exercises_client: ExercisesClient, function_course: CourseFixture):
         """
         Проверяет, что задание успешно создаётся через API и в ответе возвращаются
@@ -63,6 +66,7 @@ class TestExercises:
     @allure.story(AllureStory.UPDATE_ENTITY)  # Добавили story
     @allure.title("Update exercise")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)  # allure.sub_suite == allure.story
     def test_update_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
         """
         Проверяет, что задание успешно обновляется через API и в ответе возвращаются
@@ -84,6 +88,7 @@ class TestExercises:
     @allure.story(AllureStory.GET_ENTITY)  # Добавили story
     @allure.title("Get exercise")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITY)  # allure.sub_suite == allure.story
     def test_get_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
         """
         Проверяет, что данные ранее созданного задания успешно получаются через API
@@ -104,6 +109,7 @@ class TestExercises:
     @allure.story(AllureStory.DELETE_ENTITY)  # Добавили story
     @allure.title("Delete exercise")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)  # allure.sub_suite == allure.story
     def test_delete_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
         """
         Проверяет, что задание успешно удаляется через API и после удаленияf
@@ -127,6 +133,7 @@ class TestExercises:
     @allure.story(AllureStory.GET_ENTITIES)  # Добавили story
     @allure.title("Get exercises")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.GET_ENTITIES)  # allure.sub_suite == allure.story
     def test_get_exercises(
             self,
             exercises_client: ExercisesClient,

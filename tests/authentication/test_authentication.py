@@ -20,10 +20,13 @@ from tools.allure.tags import AllureTag
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHENTICATION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.AUTHENTICATION)
+@allure.parent_suite(AllureEpic.LMS)  # allure.parent_suite == allure.epic
+@allure.suite(AllureFeature.AUTHENTICATION)  # allure.suite == allure.feature
 class TestAuthentication:
     @allure.story(AllureStory.LOGIN)
     @allure.title("Login with correct email and password")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.LOGIN)  # allure.sub_suite == allure.story
     def test_login(self, function_user: UserFixture,
                    authentication_client: AuthenticationClient):
         # Готовим запрос на аутентификацию
