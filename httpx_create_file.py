@@ -1,5 +1,6 @@
 import httpx
 
+from config import settings
 from faker_example import fake
 
 create_user_payload = {
@@ -26,7 +27,7 @@ create_fiel_header = {
 }
 create_file_response = httpx.post(url="http://localhost:8000/api/v1/files",
                                   data={"filename": "image.png", "directory": "courses"},
-                                  files={"upload_file": open('testdata/files/image.png', 'rb')},
+                                  files={"upload_file": settings.test_data.image_png_file.read_bytes()},
                                   headers=create_fiel_header
                                   )
 create_file_response_data = create_file_response.json()
