@@ -35,6 +35,7 @@ def assert_update_course_response(
     assert_equal(response.course.description, request.description, "description")
     assert_equal(response.course.estimated_time, request.estimated_time, "estimated_time")
 
+
 @allure.step("Check course")
 def assert_course(actual: CourseSchema, expected: CourseSchema):
     """
