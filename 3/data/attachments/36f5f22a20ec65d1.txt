@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE1OjE1OjU3LjQ4ODM3NyIsInVzZXJfaWQiOiIwOGRiMGU5ZS1mODUwLTRkZGItOTRjNC1kYjI0NWY0MGEyZjYifQ.07qAI3f9bAU-MfJJJ4t6uLISOG5DdTk54MYp6DFRWAo' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teach meet network.","maxScore":53,"minScore":12,"description":"Wait into source pick pretty. Society word majority magazine. Beat travel again get environmental.\nNote training carry determine response up play. Worker court too party miss all prevent.","estimatedTime":"1 weeks","previewFileId":"5f65c1a4-a109-446e-8efd-9de39fe5465e","createdByUserId":"08db0e9e-f850-4ddb-94c4-db245f40a2f6"}'

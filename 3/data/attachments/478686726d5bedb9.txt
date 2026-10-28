@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE1OjE1OjU2LjI5NDE2MiIsInVzZXJfaWQiOiI2YTJjMjAzYi0zMWRiLTRiYWUtYjNlNy1kMDg4MjRjYzBhNTcifQ.V2byJd4jz3MATuKpJOWt6FZThIezukevon6bOl-psis' \
+  -H 'content-length: 269' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign read assume team work.","courseId":"a7997743-e594-4383-a0e1-4f5fecd1d3bf","maxScore":53,"minScore":24,"orderIndex":3,"description":"Look part turn war. Certain bag lot hair indeed unit machine art. Only who sit notice worker.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:16 Make GET request to http://localhost:8000/api/v1/exercises?courseId=344d48c0-3932-4017-94d2-6467c29eab6f
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=344d48c0-3932-4017-94d2-6467c29eab6f
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:55 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:20 Check that "id" equals to e3bee38b-dfba-4920-a74c-68d8ec3c8a09
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Road hair administration where surface.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "course_id" equals to 344d48c0-3932-4017-94d2-6467c29eab6f
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 71
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:20 Check that "order_index" equals to 33
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to Bag senior race provide activity pay. Stay sure past spend benefit method what.
+Try who institution southern seven white. Human science huge economy eat. Subject lay form drug news.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema

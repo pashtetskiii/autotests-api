@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE1OjE1OjU2LjI5NDE2MiIsInVzZXJfaWQiOiI2YTJjMjAzYi0zMWRiLTRiYWUtYjNlNy1kMDg4MjRjYzBhNTcifQ.V2byJd4jz3MATuKpJOWt6FZThIezukevon6bOl-psis' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology party food mind major best wait.","maxScore":51,"minScore":6,"description":"Occur series foreign young again newspaper. Yes order star spend show above civil another. After moment doctor deep quickly argue.","estimatedTime":"9 weeks","previewFileId":"014fb9a7-9a77-4568-8169-4cd0e3bfe6c6","createdByUserId":"6a2c203b-31db-4bae-b3e7-d08824cc0a57"}'

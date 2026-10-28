@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE1OjE1OjU2Ljg2MjUxNyIsInVzZXJfaWQiOiI5YThmYmVhNS02MDRmLTQ1NmMtODZhNS1iNjRmMjYwNGQ3ZWYifQ.koGPRjfn9mAkI7_OWbl8tDsWCTUK09hOomRuxTwIoPM' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street world country these foreign.","maxScore":52,"minScore":13,"description":"While natural statement. Clearly message avoid lawyer agent future.","estimatedTime":"4 weeks","previewFileId":"4da58b7c-3472-4928-aa68-461d40a467d5","createdByUserId":"9a8fbea5-604f-456c-86a5-b64f2604d7ef"}'

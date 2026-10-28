@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE1OjE1OjU4LjA4NjA5NSIsInVzZXJfaWQiOiIwYWZiN2QxMi0xMDk0LTQ3OTItYmVlZi1kMzQ0MTBlMTNmNjMifQ.75LCFiujRvTQHo35eyyE2BbkF7g8Mmqb8nsMwC-QNaA' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tell hour view describe.","maxScore":67,"minScore":24,"description":"Arm skin here light today rest rule. Result personal door address must oil.\nTend drug edge majority especially win Mrs. Beyond kind place us.","estimatedTime":"3 weeks","previewFileId":"1f761fe4-a263-478c-be93-328d19dd5333","createdByUserId":"0afb7d12-1094-4792-beef-d34410e13f63"}'

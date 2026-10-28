@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE1OjE1OjUzLjkzMDQ5NyIsInVzZXJfaWQiOiI1Nzk3MTVlYi01ZDIzLTQ0ZjgtYjM2YS1jM2I2ODgwOGMzMWYifQ.Pb0gk6gtKsEJNSZuW586RnPbM98TCbZllkTArkYF_tU' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead head time day.","maxScore":81,"minScore":30,"description":"Agree fly loss. Plan contain instead result every. Live nothing specific ready minute fish huge.\nPiece whom administration right realize industry. Style pick trouble. Single five color hit early.","estimatedTime":"6 weeks","previewFileId":"7722478e-51cb-4541-a778-878e13a071d6","createdByUserId":"579715eb-5d23-44f8-b36a-c3b68808c31f"}'
