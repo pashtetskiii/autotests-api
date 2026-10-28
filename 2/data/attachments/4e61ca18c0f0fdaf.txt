@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE0OjQ5OjAxLjI0MDQ3NCIsInVzZXJfaWQiOiIyNDkwMDBkMC1hOTJhLTQzNDItYjRmNy0xNGNkYTM1Y2Y0YWQifQ.mRgGzG9YxlhrhkeuYLGo7BofESG5SjeoOh54V6joTQ4' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beyond call father trial.","maxScore":84,"minScore":7,"description":"House white TV interest buy consider you. Be star form scene we. Assume we try.","estimatedTime":"4 weeks","previewFileId":"10d73267-bcfc-4510-b5d3-d46ded38be2a","createdByUserId":"249000d0-a92a-4342-b4f7-14cda35cf4ad"}'

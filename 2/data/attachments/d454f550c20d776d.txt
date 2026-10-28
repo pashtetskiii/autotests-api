@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:16 Make PATCH request to http://localhost:8000/api/v1/courses/8f636409-de86-4cd3-bd00-345190cc5cb9
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses/8f636409-de86-4cd3-bd00-345190cc5cb9
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check update course response
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Mission rise campaign.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to Nature north design push stage easy.
+Use everything management economy notice. Card brother memory plant result.
+If take house practice process teacher. Write find on lot set relate from.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema

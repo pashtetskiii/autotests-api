@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE0OjQ5OjAzLjM5NTI0MiIsInVzZXJfaWQiOiIyY2RmMTYwMS04NmEyLTQ0MzAtYmJlNS0xMGFkZDMzOTVkMjkifQ.Hl83-JdCg-RMI4to9FhNZcCAk72i26k6M4LXqp6WD5Y' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List concern into act.","maxScore":81,"minScore":2,"description":"Blue green somebody television could history worker. Raise new agree. Peace wait trial past reason approach five.\nProduct close our suddenly leave. Thing dinner option her decade ability city.","estimatedTime":"2 weeks","previewFileId":"efd29caa-6985-4bda-a92f-d22ade798f7d","createdByUserId":"2cdf1601-86a2-4430-bbe5-10add3395d29"}'

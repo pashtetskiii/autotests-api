@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE0OjQ5OjAwLjk2NjMwOCIsInVzZXJfaWQiOiI2NjdiNDFkYi0xYTdmLTRmNDMtOTE0NC0zOGMwODYyYjAyZGEifQ.3B1bX9sKG2Nka7iSxgTbFM3ofcyoRBwn0irHoUR3XgM' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car piece worker and likely open.","maxScore":80,"minScore":26,"description":"Seven trade collection eight baby edge region. Republican officer future drug late deal particularly answer. Smile street win will heavy north top assume. Heart itself where generation and.","estimatedTime":"9 weeks","previewFileId":"64bdf28c-7b17-4975-87ff-349f6e46d06e","createdByUserId":"667b41db-1a7f-4f43-9144-38c0862b02da"}'

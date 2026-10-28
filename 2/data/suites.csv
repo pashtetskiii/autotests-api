@@ -1,0 +1,63 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","295","Delete file","LMS service","2026-10-28","passed","2026-10-28","Delete entities","Files","",""
+"","28","Get courses","LMS service","2026-10-28","passed","2026-10-28","Get entities","Courses","",""
+"","282","Create file with empty filename","LMS service","2026-10-28","passed","2026-10-28","Validate entities","Files","",""
+"
+        Проверяет, что данные ранее созданного задания успешно получаются через API
+        и соответствуют данным, полученным при его создании.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","20","Get exercise","LMS service","2026-10-28","passed","2026-10-28","Get entities","Exercises","",""
+"
+        Проверяет, что курс успешно создаётся через API и в ответе возвращаются
+        корректные данные, включая привязку к переданным файлу превью и пользователю.
+
+        :param courses_client: Клиент для работы с /api/v1/courses.
+        :param function_file: Фикстура, создающая тестовый файл.
+        :param function_user: Фикстура, создающая тестового пользователя.
+        ","29","Create course","LMS service","2026-10-28","passed","2026-10-28","Create entities","Courses","",""
+"","558","Login with correct email and password","LMS service","2026-10-28","passed","2026-10-28","LOGIN","Authentication","",""
+"
+        Проверяет, что задание успешно удаляется через API и после удаленияf
+        становится недоступным для получения.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","25","Delete exercise","LMS service","2026-10-28","passed","2026-10-28","Delete entities","Exercises","",""
+"
+        Проверяет, что задание успешно создаётся через API и в ответе возвращаются
+        корректные данные, соответствующие переданному запросу, включая привязку к курсу.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_course: Фикстура, создающая тестовый курс.
+        ","27","Create exercise","LMS service","2026-10-28","passed","2026-10-28","Create entities","Exercises","",""
+"
+        Проверяет, что задание успешно обновляется через API и в ответе возвращаются
+        корректные данные, соответствующие переданному запросу на обновление.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","66","Update exercise","LMS service","2026-10-28","passed","2026-10-28","Update entities","Exercises","",""
+"","600","Create user","LMS service","2026-10-28","passed","2026-10-28","Create entities","Users","",""
+"
+        Проверяет, что при запросе файла с некорректным (не-UUID) file_id
+        API возвращает валидационную ошибку со статус-кодом 422.
+
+        :param files_client: Клиент для работы с /api/v1/files.
+        ","14","Get file with incorrect file id","LMS service","2026-10-28","passed","2026-10-28","Validate entities","Files","",""
+"","607","Create user","LMS service","2026-10-28","passed","2026-10-28","Create entities","Users","",""
+"","16","Get file","LMS service","2026-10-28","passed","2026-10-28","Get entities","Files","",""
+"","37","Update course","LMS service","2026-10-28","passed","2026-10-28","Update entities","Courses","",""
+"","285","Create file with empty directory","LMS service","2026-10-28","passed","2026-10-28","Validate entities","Files","",""
+"
+        Проверяет, что список заданий для курса успешно получается через API
+        и содержит ранее созданное задание.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_course: Фикстура, создающая тестовый курс.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","293","Get exercises","LMS service","2026-10-28","passed","2026-10-28","Get entities","Exercises","",""
+"","289","Create user","LMS service","2026-10-28","passed","2026-10-28","Create entities","Users","",""
+"","22","Create file","LMS service","2026-10-28","passed","2026-10-28","Create entities","Files","",""
+"","13","Get user me","LMS service","2026-10-28","passed","2026-10-28","Get entities","Users","",""

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:94 Check create course response
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Political wait many though couple drug.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to Easy east property risk share cost. Teacher age worker travel think nation.
+Alone teach wall. Nothing billion commercial she director peace. Anything population down threat believe lot human.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:20 Check that "preview_file_id" equals to 2f2e6ad2-d81a-402c-84c4-d7d9d074831a
+INFO     BASE_ASSERTIONS:base.py:20 Check that "created_by_user_id" equals to 6126b685-2ec5-4112-a683-e9a5516587d5
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema

@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:16 Make GET request to http://localhost:8000/api/v1/exercises/ae0dcc16-2b61-45ed-80b8-b6af58620b98
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises/ae0dcc16-2b61-45ed-80b8-b6af58620b98
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:20 Check that "id" equals to ae0dcc16-2b61-45ed-80b8-b6af58620b98
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Either thousand like risk agree actually enough Mr.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "course_id" equals to 5d47de4b-f5dd-4d8e-8dbd-cd9d625a9fce
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:20 Check that "order_index" equals to 83
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to Citizen feel offer discussion meeting option want collection. Relate game physical see training unit always conference. White policy turn green end.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema

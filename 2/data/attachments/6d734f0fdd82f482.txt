@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE0OjQ5OjAwLjA4MjIxNyIsInVzZXJfaWQiOiI2MTI2YjY4NS0yZWM1LTQxMTItYTY4My1lOWE1NTE2NTg3ZDUifQ.dWavz1u1wncw849rZiYnGXEiyIb26BVqGLUVLHVzY9I' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Political wait many though couple drug.","maxScore":84,"minScore":28,"description":"Easy east property risk share cost. Teacher age worker travel think nation.\nAlone teach wall. Nothing billion commercial she director peace. Anything population down threat believe lot human.","estimatedTime":"1 weeks","previewFileId":"2f2e6ad2-d81a-402c-84c4-d7d9d074831a","createdByUserId":"6126b685-2ec5-4112-a683-e9a5516587d5"}'

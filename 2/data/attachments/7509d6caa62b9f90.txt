@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE0OjQ5OjAyLjQyNTY1NSIsInVzZXJfaWQiOiJiNTI2YzlhYi1iNDZjLTQwY2MtYTdhMi0yMTc3YzllOTE2NWEifQ.hOVcMjJYyyuXDPyG1tIFOyP79W101JEuM-l49YHCM_M' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead part heavy bag claim others hit.","maxScore":84,"minScore":21,"description":"Feeling director public mind door. Reduce throw whether factor indeed care. Image same simple feel. Look onto join.","estimatedTime":"9 weeks","previewFileId":"b4b72109-60be-4979-ab72-6c96b7d5c106","createdByUserId":"b526c9ab-b46c-40cc-a7a2-2177c9e9165a"}'

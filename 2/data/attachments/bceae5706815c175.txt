@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8f636409-de86-4cd3-bd00-345190cc5cb9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI4VDE0OjQ4OjU5LjUxMDkzMCIsInVzZXJfaWQiOiJkN2VmZjUwNC1mM2NlLTQxMWQtODJjYS0wMmIyNjc3N2FhM2YifQ.GWlmML4PkD5UIyN5eysv9l8-Kuc1PDQaPy-lRPeSICU' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mission rise campaign.","maxScore":76,"minScore":10,"description":"Nature north design push stage easy.\nUse everything management economy notice. Card brother memory plant result.\nIf take house practice process teacher. Write find on lot set relate from.","estimatedTime":"8 weeks"}'
