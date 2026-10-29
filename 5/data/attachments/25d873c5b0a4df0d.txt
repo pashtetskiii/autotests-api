@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:16 Make GET request to http://localhost:8000/api/v1/exercises?courseId=98f16ffa-fcdc-4970-a4fa-370ae1639c4a
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=98f16ffa-fcdc-4970-a4fa-370ae1639c4a
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:55 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:20 Check that "id" equals to f80da950-eb16-46e2-b51d-158ca43b3c27
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Hundred decade rather try choose drug.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "course_id" equals to 98f16ffa-fcdc-4970-a4fa-370ae1639c4a
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:20 Check that "order_index" equals to 9
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to Old degree reach spring note growth learn. Man everybody too nearly citizen. Up everybody medical professor type mother.
+Expect manager total since role. Site heart him open it.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema

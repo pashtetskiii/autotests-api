@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjAzOjMwLjU3Nzc5OCIsInVzZXJfaWQiOiI4ZWIwYzE3ZS05NjljLTQ0NDQtYWIzMS02ZTU5NmQyMGRjNzQifQ.VCFk1hDHZwveNhlu2bWJ1rcROH8S_Ylwn3Tg0eDhLsU' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free everything listen about give blue.","maxScore":58,"minScore":29,"description":"Tonight herself occur image kind. Religious own generation recognize story.\nCompany be seven modern director side white. Local people ever kind doctor. Forget but institution.","estimatedTime":"1 weeks","previewFileId":"bcfab927-8260-439f-b0cc-d897859254c6","createdByUserId":"8eb0c17e-969c-4444-ab31-6e596d20dc74"}'

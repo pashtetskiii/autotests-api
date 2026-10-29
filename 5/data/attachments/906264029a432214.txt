@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjAzOjI5LjMxOTgzMSIsInVzZXJfaWQiOiJiOTIwMzk1OC0zZmVkLTRlZjAtYWFlOC0xYmM4ZTA5ODc5ZGMifQ.Q6xm-NpsAwhfICRtzbe0cCgcCOKY7zuJ6z-t8AJ-BFI' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Special threat own sport trial.","maxScore":97,"minScore":27,"description":"Resource manage account back write. Remember include really follow fast make indicate reflect. Mission often break vote side never note.","estimatedTime":"2 weeks","previewFileId":"b9b233ad-9f58-4b7c-9460-20c815b97602","createdByUserId":"b9203958-3fed-4ef0-aae8-1bc8e09879dc"}'

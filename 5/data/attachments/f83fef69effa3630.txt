@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:16 Make GET request to http://localhost:8000/api/v1/exercises/c13ca3e1-6ddc-4e44-80a3-045059f1d1b8
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises/c13ca3e1-6ddc-4e44-80a3-045059f1d1b8
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:20 Check that "id" equals to c13ca3e1-6ddc-4e44-80a3-045059f1d1b8
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Hold finish movie order none subject.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "course_id" equals to dae6acd4-f81f-4438-bd7e-a677bb539187
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:20 Check that "order_index" equals to 10
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to Learn citizen party bed. Peace phone into minute note.
+Meeting myself which hand ten authority home. Almost recent beat occur.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema

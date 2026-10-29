@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/33dc3d23-16a6-4e3c-a351-f27565273f05' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjAzOjI4LjkxMjkxNyIsInVzZXJfaWQiOiIyYWM3OWY5Yi1kNTE4LTQ0ZGEtOWRjNS03MDMzMGQ1NGE3ZjgifQ.idHuCPtIkY6PIhQqWxdCN2v72DPZLLMhAe9isBnqCzE' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough personal population state along later.","maxScore":96,"minScore":2,"description":"Close part stage glass. End only sing. Leader phone quality allow far.\nForce road mention describe church middle. Heart production run reality.","estimatedTime":"7 weeks"}'

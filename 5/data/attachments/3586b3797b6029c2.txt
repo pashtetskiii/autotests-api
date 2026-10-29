@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjAzOjI5LjkzNzYwNyIsInVzZXJfaWQiOiIzYWQxMzAxYi02NDM1LTQ4OWMtYWIxYi01NmQ1Yzk5MDNhN2MifQ.XwykgTe5NTas0gqfhhzH6_sqBi9945J0yw6Dji3tTgI' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Work kid certain capital father.","maxScore":58,"minScore":24,"description":"Lose similar service another day citizen yet expect. Shake remember sister race already up two. World way listen traditional build.\nAlthough game college party. Involve reason huge color act.","estimatedTime":"1 weeks","previewFileId":"0bb75e0f-f389-49c1-9cbc-21e9ed91aa8e","createdByUserId":"3ad1301b-6435-489c-ab1b-56d5c9903a7c"}'

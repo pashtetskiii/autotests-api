@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjAzOjMwLjEzNDA3NyIsInVzZXJfaWQiOiIwN2U1MmEwMS0yOWU5LTQwMjktOWFlZC1jOWVlNTc2MTY1ZGEifQ.JwGn98D33nyLGnsdMmCXxxWDzls6l9eFu4MHRRqAG9o' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold finish movie order none subject.","courseId":"dae6acd4-f81f-4438-bd7e-a677bb539187","maxScore":84,"minScore":2,"orderIndex":10,"description":"Learn citizen party bed. Peace phone into minute note.\nMeeting myself which hand ten authority home. Almost recent beat occur.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjAzOjMwLjk5MDkzOSIsInVzZXJfaWQiOiJiMmU5ZDE3NS1hOGRmLTQ3ZTItYjI1OS01MTMwY2YwMTY4NTYifQ.VOowrVZ7KO2AAcuFPAjtyvO2OFxns0bPYRW9Vfwo2mg' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon than own.","maxScore":52,"minScore":1,"description":"Agreement fly she follow pass firm. Almost old worry today bring build.\nCurrent area list behind less indicate figure success. Order whose blood raise probably.","estimatedTime":"7 weeks","previewFileId":"dab0e113-f443-404a-a223-37ebf8ab6dde","createdByUserId":"b2e9d175-a8df-47e2-b259-5130cf016856"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjAzOjMxLjg0Nzg1NSIsInVzZXJfaWQiOiI3MjEwY2U3Zi0wY2RiLTRlMWUtYWU0OC0wNmFjNGJjNTM2ODAifQ.3NzH9xu40a1kg9agI0R0vxKSaLcwntt9qTjSoF9NN6Q' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred decade rather try choose drug.","courseId":"98f16ffa-fcdc-4970-a4fa-370ae1639c4a","maxScore":76,"minScore":20,"orderIndex":9,"description":"Old degree reach spring note growth learn. Man everybody too nearly citizen. Up everybody medical professor type mother.\nExpect manager total since role. Site heart him open it.","estimatedTime":"3 weeks"}'
