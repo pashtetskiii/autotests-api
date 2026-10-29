@@ -4,7 +4,7 @@
         "username": {
             "type": "string",
             "minLength": 5,
-            "maxLength": 15
+            "maxLength": 16
         }
     },
     "required": ["username"]
