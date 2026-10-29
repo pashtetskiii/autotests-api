@@ -1,14 +1,10 @@
-name: API tests
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+name: Share data between jobs
+
+on: [push]
 
 jobs:
-  run-tests:
+  job_1:
+    name: run-tests
     runs-on: ubuntu-latest
 
     steps:
@@ -62,6 +58,32 @@ jobs:
         with:
           allure_results: allure-results
           allure_history: allure-history
+
+      - name: Deploy to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
+
+      - name: Archive Allure-results artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-artifact
+          path: output/allure-results/allure-results.html
+
+
+  job_2:
+    name: publish-report
+    needs: job_1
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download allure-results artifact
+        uses: actions/download-artifact@v5
+        with:
+          name: my-artifact
 
       - name: Deploy to GitHub Pages
         if: always()
