@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjMzLjU5ODc0OCIsInVzZXJfaWQiOiJiNDc5ZjBiNy0xYWEwLTQyNTUtODcyNC1kNmU3ODgwNGE0MGYifQ.E5D9r4kYhulQFT4zovFJkAIiKvnCfvp13iwr1lntBH8' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Party either even.","maxScore":91,"minScore":22,"description":"Loss everybody language near door range. On hope involve way wrong dog decide building.","estimatedTime":"1 weeks","previewFileId":"a90b07d6-bd10-43d1-b6f8-583e32e9236c","createdByUserId":"b479f0b7-1aa0-4255-8724-d6e78804a40f"}'

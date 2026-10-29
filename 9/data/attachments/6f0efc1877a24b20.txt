@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjM0LjE2ODA4NSIsInVzZXJfaWQiOiJlMGNiMzUzOC1kZjgxLTRkY2EtYTM1Zi0yNWQ4ZTE2ZWRlNjgifQ.x4Qm2itEnSuPOrFhHXRdFJ1kw9m5cV_ubIlmNL9WGWo' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It whole kind.","courseId":"adefdd9e-8c96-4f6b-ae17-75bfcd0fcfec","maxScore":95,"minScore":28,"orderIndex":51,"description":"Anything everybody what good become particular develop will. Maybe bag business but able affect.","estimatedTime":"2 weeks"}'

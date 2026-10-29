@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjM0LjE2ODA4NSIsInVzZXJfaWQiOiJlMGNiMzUzOC1kZjgxLTRkY2EtYTM1Zi0yNWQ4ZTE2ZWRlNjgifQ.x4Qm2itEnSuPOrFhHXRdFJ1kw9m5cV_ubIlmNL9WGWo' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point interesting thank act very good fine.","maxScore":53,"minScore":21,"description":"Real baby yard already technology reduce. Start hit material space already bill wife song. Parent population east nice without five. Maintain sometimes certainly rest produce.","estimatedTime":"2 weeks","previewFileId":"e95fb271-3d85-432f-98bd-07d5ba152634","createdByUserId":"e0cb3538-df81-4dca-a35f-25d8e16ede68"}'

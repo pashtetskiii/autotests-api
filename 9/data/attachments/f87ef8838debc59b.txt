@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjMxLjc5MDMyNSIsInVzZXJfaWQiOiI3MTU4MDI5Ny1iNjRkLTQ2OWYtODZkNC1iMGY1OTQxZTJkMzQifQ.VY1LYxZm6W0nk6bR7qxmgN2Sz-1RfFVwW2TeOVN0fKM' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark well real through off.","courseId":"bf9a1d03-6d66-46dc-b217-f4d92149875d","maxScore":73,"minScore":23,"orderIndex":72,"description":"Fine interview foot vote. Across from painting see exactly phone.\nMember country of also fish list. Rock high understand ever. My under important century eight.","estimatedTime":"4 weeks"}'

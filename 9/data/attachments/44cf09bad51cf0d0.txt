@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjMxLjc5MDMyNSIsInVzZXJfaWQiOiI3MTU4MDI5Ny1iNjRkLTQ2OWYtODZkNC1iMGY1OTQxZTJkMzQifQ.VY1LYxZm6W0nk6bR7qxmgN2Sz-1RfFVwW2TeOVN0fKM' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision look provide thing write statement sense.","maxScore":77,"minScore":4,"description":"Student watch dinner. Build charge tend other rather fish look customer.\nPretty science fear everything yard. However small party late staff. Lot reason safe four together.","estimatedTime":"6 weeks","previewFileId":"d641e7c7-ad5f-461a-a651-a3605153c588","createdByUserId":"71580297-b64d-469f-86d4-b0f5941e2d34"}'

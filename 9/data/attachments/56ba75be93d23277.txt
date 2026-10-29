@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjMwLjU5MjA1NyIsInVzZXJfaWQiOiIwYjk0NTVhNi04NWZlLTQ3N2YtYWI3ZS02NjlhZjc2MWYzNmEifQ.-C-QRs1Rz3xN5FFKuyn6QVMCa_n1eqp-loD6zldOTys' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually owner organization bad.","maxScore":89,"minScore":24,"description":"Marriage particular also arm woman. Sound also sport meeting painting.\nQuickly table machine. We response spring usually identify list career.\nSell boy boy long may.","estimatedTime":"10 weeks","previewFileId":"df21a4b6-3d09-479c-b232-4c308b702200","createdByUserId":"0b9455a6-85fe-477f-ab7e-669af761f36a"}'

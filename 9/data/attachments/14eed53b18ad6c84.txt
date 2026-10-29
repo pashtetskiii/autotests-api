@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjMyLjQwNTUxMyIsInVzZXJfaWQiOiJkZWNlM2ZlYS0xZGZjLTRjYmEtYTIyYS0wY2M0ZDBiMGEzMDEifQ.mnWaYvJHAI6yeLrJSD4iFE_wGNim70KApVfvUOnPYSs' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Away one grow most compare.","maxScore":54,"minScore":9,"description":"Project remain might rate. Around adult generation necessary give newspaper card.\nCatch third special cause watch free baby. Tough subject strong. Moment majority response still.","estimatedTime":"1 weeks","previewFileId":"a65bf9c6-0632-4348-9f3d-41ce584544f9","createdByUserId":"dece3fea-1dfc-4cba-a22a-0cc4d0b0a301"}'

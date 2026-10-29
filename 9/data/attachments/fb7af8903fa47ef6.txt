@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjE2OjMyLjk4MDM2MyIsInVzZXJfaWQiOiI3MGQ0YzQ3Mi01YzlkLTQxYzAtOGRlNC1mYjc2ZjM0MDllMTUifQ.iGgVRQA9aOwbdbcwnfa9NoBqPgwKuks6A6OsFrEnkjw' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule improve charge use report onto quite.","maxScore":71,"minScore":22,"description":"Our wall character face show mean. Movie environmental into. Smile marriage wife should.","estimatedTime":"7 weeks","previewFileId":"6672b7ad-dfc5-4ac1-8516-0819f802bca3","createdByUserId":"70d4c472-5c9d-41c0-8de4-fb76f3409e15"}'
