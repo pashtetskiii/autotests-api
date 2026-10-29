@@ -3,8 +3,7 @@ name: Share data between jobs
 on: [push]
 
 jobs:
-  job_1:
-    name: run-tests
+  run-tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -44,6 +43,23 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=2
 
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+  publish-report:
+    runs-on: ubuntu-latest
+    needs: run-tests
+
+    steps:
+      - name: Download Allure results
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
+          path: allure-results
+
       - name: Get Allure history
         uses: actions/checkout@v7
         if: always()
@@ -58,32 +74,6 @@ jobs:
         with:
           allure_results: allure-results
           allure_history: allure-history
-
-      - name: Deploy to GitHub Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history
-
-      - name: Archive Allure-results artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: my-artifact
-          path: output/allure-results/allure-results.html
-
-
-  job_2:
-    name: publish-report
-    needs: job_1
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Download allure-results artifact
-        uses: actions/download-artifact@v5
-        with:
-          name: my-artifact
 
       - name: Deploy to GitHub Pages
         if: always()
