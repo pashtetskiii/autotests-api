@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjA2OjA2LjkxOTY4MiIsInVzZXJfaWQiOiJiMzg4OTdjNi1mNTIwLTQ4MjQtODJiYS1jNGUzNTdiYTFhMmIifQ.7894Q5PFJONV6i2L9vndQMrodEkhMmJqdPhwrD2voKk' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Never executive service along rather friend both.","courseId":"c07f192f-38df-4ba6-9e95-7163194b7d41","maxScore":80,"minScore":30,"orderIndex":71,"description":"Blood now future answer feeling. Structure office level pretty.\nCold benefit arm letter food theory. Father particular read. Real meet term bit its.","estimatedTime":"2 weeks"}'

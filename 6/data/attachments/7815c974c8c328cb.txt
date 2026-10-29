@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjA2OjA0LjAyOTM3MiIsInVzZXJfaWQiOiI2Y2VkMWMxMS03MjRhLTQxNzEtOGE0ZC04N2QwMGU2ZjYxZDIifQ.iYU39pS6XywTNokcPZYS1DnKsCJNU_VcwM9iH4rcnP8' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture your pressure economic between.","maxScore":54,"minScore":6,"description":"Score article father describe trial. Where idea international almost good what identify. Catch option order service.\nList community boy card might shake. List picture son worker manage.","estimatedTime":"5 weeks","previewFileId":"05525cd7-c972-481b-b2b3-dfd2c4aa7b09","createdByUserId":"6ced1c11-724a-4171-8a4d-87d00e6f61d2"}'

@@ -1,0 +1,63 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13","Get user me","LMS service","2026-10-29","passed","2026-10-29","Get entities","Users","",""
+"","599","Create user","LMS service","2026-10-29","passed","2026-10-29","Create entities","Users","",""
+"","304","Create file with empty directory","LMS service","2026-10-29","passed","2026-10-29","Validate entities","Files","",""
+"","1635","Create user","LMS service","2026-10-29","passed","2026-10-29","Create entities","Users","",""
+"","305","Login with correct email and password","LMS service","2026-10-29","passed","2026-10-29","LOGIN","Authentication","",""
+"","24","Create file","LMS service","2026-10-29","passed","2026-10-29","Create entities","Files","",""
+"","651","Create user","LMS service","2026-10-29","passed","2026-10-29","Create entities","Users","",""
+"","344","Get courses","LMS service","2026-10-29","passed","2026-10-29","Get entities","Courses","",""
+"
+        Проверяет, что данные ранее созданного задания успешно получаются через API
+        и соответствуют данным, полученным при его создании.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","18","Get exercise","LMS service","2026-10-29","passed","2026-10-29","Get entities","Exercises","",""
+"
+        Проверяет, что при запросе файла с некорректным (не-UUID) file_id
+        API возвращает валидационную ошибку со статус-кодом 422.
+
+        :param files_client: Клиент для работы с /api/v1/files.
+        ","306","Get file with incorrect file id","LMS service","2026-10-29","passed","2026-10-29","Validate entities","Files","",""
+"","16","Get file","LMS service","2026-10-29","passed","2026-10-29","Get entities","Files","",""
+"
+        Проверяет, что задание успешно обновляется через API и в ответе возвращаются
+        корректные данные, соответствующие переданному запросу на обновление.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","59","Update exercise","LMS service","2026-10-29","passed","2026-10-29","Update entities","Exercises","",""
+"","299","Create file with empty filename","LMS service","2026-10-29","passed","2026-10-29","Validate entities","Files","",""
+"
+        Проверяет, что курс успешно создаётся через API и в ответе возвращаются
+        корректные данные, включая привязку к переданным файлу превью и пользователю.
+
+        :param courses_client: Клиент для работы с /api/v1/courses.
+        :param function_file: Фикстура, создающая тестовый файл.
+        :param function_user: Фикстура, создающая тестового пользователя.
+        ","35","Create course","LMS service","2026-10-29","passed","2026-10-29","Create entities","Courses","",""
+"","33","Update course","LMS service","2026-10-29","passed","2026-10-29","Update entities","Courses","",""
+"","317","Delete file","LMS service","2026-10-29","passed","2026-10-29","Delete entities","Files","",""
+"
+        Проверяет, что задание успешно создаётся через API и в ответе возвращаются
+        корректные данные, соответствующие переданному запросу, включая привязку к курсу.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_course: Фикстура, создающая тестовый курс.
+        ","25","Create exercise","LMS service","2026-10-29","passed","2026-10-29","Create entities","Exercises","",""
+"
+        Проверяет, что список заданий для курса успешно получается через API
+        и содержит ранее созданное задание.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_course: Фикстура, создающая тестовый курс.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","15","Get exercises","LMS service","2026-10-29","passed","2026-10-29","Get entities","Exercises","",""
+"
+        Проверяет, что задание успешно удаляется через API и после удаленияf
+        становится недоступным для получения.
+
+        :param exercises_client: Клиент для работы с /api/v1/exercises.
+        :param function_exercise: Фикстура, создающая тестовое задание.
+        ","25","Delete exercise","LMS service","2026-10-29","passed","2026-10-29","Delete entities","Exercises","",""

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjA2OjA5LjQ0MDY5NCIsInVzZXJfaWQiOiIzMzAyODA1MC04NmRhLTQ4NzQtOTFlYi0zZGU3NzZhNmNhNzAifQ.hvF-PNoCIw9qZcyB1VQCG3rDNE4o2LO-4y3D11MEhIc' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense image task adult us painting baby.","courseId":"0672268b-44cb-4376-a174-f5a8bc1d5bc9","maxScore":59,"minScore":18,"orderIndex":77,"description":"Ability unit view science heavy address. Price executive place guy discover remember. Successful way long everyone management determine reveal. Training fire fish put feel course fish.","estimatedTime":"4 weeks"}'

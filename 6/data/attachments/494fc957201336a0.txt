@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjA2OjA2LjkxOTY4MiIsInVzZXJfaWQiOiJiMzg4OTdjNi1mNTIwLTQ4MjQtODJiYS1jNGUzNTdiYTFhMmIifQ.7894Q5PFJONV6i2L9vndQMrodEkhMmJqdPhwrD2voKk' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare quickly feeling stock loss.","maxScore":92,"minScore":23,"description":"Final financial voice senior news example fish. Medical society plan special somebody respond war. Dark find often miss enjoy debate.\nSize charge range open his play professional heavy.","estimatedTime":"5 weeks","previewFileId":"f9731e44-526c-45cf-ba01-22e1ed0d89e1","createdByUserId":"b38897c6-f520-4824-82ba-c4e357ba1a2b"}'

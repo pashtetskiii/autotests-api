@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/03179be9-83eb-49fb-a62a-be2f3611a3df' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjA2OjA1LjAxNDk0OCIsInVzZXJfaWQiOiI4YjFiYzg1Zi05YjNlLTQ0YmItOWQwZC05MDFkNjU2NTNhMzMifQ.6AM7uUPWdWsYRGpugUn6Bsq4P8X8QZYIxby790gFj9Q' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Green accept whole off.","maxScore":89,"minScore":15,"description":"And his thank dark whom. Close of major yes.\nOff remain strong prove up performance defense. During work choose research media. Education big should break level.","estimatedTime":"8 weeks"}'

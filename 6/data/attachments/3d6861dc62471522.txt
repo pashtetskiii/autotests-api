@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjA2OjA2LjYyMDQ1NyIsInVzZXJfaWQiOiI2YzkzYjA3ZC03NTY1LTRjNGYtYTMyYi1kN2NiYzFhMTc3N2YifQ.6lU0YSy90CKBMdoDhQ1gr10v-vKp1SfAqB9FPMXkuGw' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Inside economic though radio education allow present.","maxScore":68,"minScore":15,"description":"Appear move water everyone respond. Yeah picture computer return key oil kind. Something tend speak many miss first individual.","estimatedTime":"4 weeks","previewFileId":"9944b3c6-d25c-42e3-872b-1048897ab303","createdByUserId":"6c93b07d-7565-4c4f-a32b-d7cbc1a1777f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjA2OjA1LjYyNzE2MyIsInVzZXJfaWQiOiJhZjk4NTczOC1jYTU1LTQ5YmUtOTg1NC0yMjk2N2NkZDFmZmYifQ.I-e4sQncpAzXMDZuQVkygApHJtan2tJ6G2eZv28wDEI' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural indeed item who relate imagine.","maxScore":60,"minScore":6,"description":"Ok young author expert also least. Whom home east enough save when since.\nWall eye despite discover carry what protect free. Term eight arrive last news.","estimatedTime":"2 weeks","previewFileId":"cce19236-7744-4e32-a9cf-827eb9757971","createdByUserId":"af985738-ca55-49be-9854-22967cdd1fff"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:16 Make GET request to http://localhost:8000/api/v1/exercises/919773aa-0624-414b-b3b2-558ced1aa1da
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/exercises/919773aa-0624-414b-b3b2-558ced1aa1da
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:20 Check that "id" equals to 919773aa-0624-414b-b3b2-558ced1aa1da
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Never executive service along rather friend both.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "course_id" equals to c07f192f-38df-4ba6-9e95-7163194b7d41
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:20 Check that "order_index" equals to 71
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to Blood now future answer feeling. Structure office level pretty.
+Cold benefit arm letter food theory. Father particular read. Real meet term bit its.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema
