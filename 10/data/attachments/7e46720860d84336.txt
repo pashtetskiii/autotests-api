@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE3OjI4OjEzLjMzMDg5NyIsInVzZXJfaWQiOiIxOGEyMWU5MS0zYmYyLTRmZTItODkzMC1jYjU2OWQ0YWU1NzUifQ.VB3aospLwD6eqdRL_vdpH1om56TvYi7Lzxe0O5nBj5c' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Analysis level sure place.","maxScore":60,"minScore":4,"description":"Just degree growth challenge site. Mr cold leader much operation. Drive follow difference participant whole. Condition partner minute act but miss eight.","estimatedTime":"6 weeks","previewFileId":"e3da3a28-5e26-47a4-842e-06b6925692df","createdByUserId":"18a21e91-3bf2-4fe2-8930-cb569d4ae575"}'

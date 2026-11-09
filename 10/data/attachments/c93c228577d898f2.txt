@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE3OjI4OjExLjcwNjcxNCIsInVzZXJfaWQiOiIyMjFmM2I1ZC0zZWU4LTRjYmUtOTMwNS04NDY3YTdkZTczMTIifQ.ZY-t09ZIzGItz4EI3GjtyRDAYapA7WyxchawrJGdYn0' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Past Republican present goal choice necessary plant.","maxScore":64,"minScore":24,"description":"Gun return effect. Son those force step.\nAttention administration instead dog view. Be pick kind positive meet market amount. As town attack. Since traditional safe fast.","estimatedTime":"4 weeks","previewFileId":"ba562bf3-6d77-4e50-ac02-b2f5b55d7b61","createdByUserId":"221f3b5d-3ee8-4cbe-9305-8467a7de7312"}'

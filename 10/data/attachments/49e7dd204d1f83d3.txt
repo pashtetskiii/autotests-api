@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1ffb6909-5169-4ce2-8525-20e0ef5e0284' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE3OjI4OjEwLjY5MDM0MCIsInVzZXJfaWQiOiI1ZjUwMDYzMS02NGY5LTQ0NmMtYjk4Yy00MTliMmUzOGZkNzIifQ.i2gEnTJcBa9ROR6vy-CJqCU2mpZw0INeJ-UmhbTfE14' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek simply soldier order tough discussion player partner.","maxScore":95,"minScore":15,"description":"History wall especially rock. Mean into production base us.\nPosition ten fast debate attention suffer. Admit candidate court buy.","estimatedTime":"2 weeks"}'

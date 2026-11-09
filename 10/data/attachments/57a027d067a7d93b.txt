@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE3OjI4OjEyLjcxODAzMyIsInVzZXJfaWQiOiIzNDA4YTkwNy02YzA5LTRiOTgtYjdjYy1mYWNiYjgxZTJkZTAifQ.NnWRZk0YIqdoP3lEaFyiamsJeLE3OzJID3IdLWNS9Zw' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High much will close.","maxScore":91,"minScore":12,"description":"Concern happy however board across role commercial. He front stay. How more thank good relationship.\nTax arm box kitchen. Area last decide read example run.","estimatedTime":"6 weeks","previewFileId":"a7dfdd5f-eff2-4189-9586-6a34e3aa5ee4","createdByUserId":"3408a907-6c09-4b98-b7cc-facbb81e2de0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE3OjI4OjEwLjY5MDM0MCIsInVzZXJfaWQiOiI1ZjUwMDYzMS02NGY5LTQ0NmMtYjk4Yy00MTliMmUzOGZkNzIifQ.i2gEnTJcBa9ROR6vy-CJqCU2mpZw0INeJ-UmhbTfE14' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay beautiful scientist father future.","maxScore":80,"minScore":5,"description":"Reveal practice term dinner. Agent behind leader customer commercial treat investment truth. Pressure particularly adult within gas strategy sport.","estimatedTime":"4 weeks","previewFileId":"d7955009-c631-4a4b-bdcf-06370519d455","createdByUserId":"5f500631-64f9-446c-b98c-419b2e38fd72"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE3OjI4OjE0LjAwMTQ5NiIsInVzZXJfaWQiOiJjMGFhNmRhYS0yOWU2LTQxYjYtOTE3MC0wZjRiMDY2NWFkMDIifQ.8DIspDiS_cmWHxLlIWXHBJA-zzN5mi7af3CHeUGiS4Y' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare billion nature live stand wrong store.","maxScore":78,"minScore":6,"description":"Onto behind figure nor three deal product.\nYear book fear none scene beyond candidate. Republican able leg move song from necessary. Look federal thank much idea suggest group.","estimatedTime":"5 weeks","previewFileId":"9a41b317-afc4-4bc5-b3fc-b5843f587203","createdByUserId":"c0aa6daa-29e6-41b6-9170-0f4b0665ad02"}'

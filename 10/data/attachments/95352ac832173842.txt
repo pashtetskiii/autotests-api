@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:16 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:16 Make PATCH request to http://localhost:8000/api/v1/courses/1ffb6909-5169-4ce2-8525-20e0ef5e0284
+INFO     HTTP_LOGGER:event_hooks.py:22 Got response 200 OK from http://localhost:8000/api/v1/courses/1ffb6909-5169-4ce2-8525-20e0ef5e0284
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code is equal to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check update course response
+INFO     BASE_ASSERTIONS:base.py:20 Check that "title" equals to Seek simply soldier order tough discussion player partner.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:20 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:20 Check that "description" equals to History wall especially rock. Mean into production base us.
+Position ten fast debate attention suffer. Admit candidate court buy.
+INFO     BASE_ASSERTIONS:base.py:20 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:12 Validating JSON schema

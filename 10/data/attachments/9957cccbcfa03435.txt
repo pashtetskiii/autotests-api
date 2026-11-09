@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE3OjI4OjEyLjIyNzM5MyIsInVzZXJfaWQiOiI0YTg5YzI2Yy1iOGE0LTQ0YTYtYjhkYS00ZDM1OGU4ODAxYzQifQ.QeQidK8bWyL3pqGDDy-7qgz3ojSYz3kVtOwCx2rqfFg' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel scientist race best establish southern star.","maxScore":72,"minScore":20,"description":"Choose pass factor certain account manager cover. Single ten whatever name six Mrs citizen.","estimatedTime":"7 weeks","previewFileId":"2cb34d44-c738-4af2-a495-bcd8b46d0c2c","createdByUserId":"4a89c26c-b8a4-44a6-b8da-4d358e8801c4"}'
